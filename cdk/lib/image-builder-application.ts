@@ -41,6 +41,7 @@ export class ImageBuilderApplication extends Stage {
             
             baseImageRepository: baseImage.baseImageRepository,
             imageTag: baseImage.imageTag,
+            yoctoProjectRelease: "hardknott",
 
             githubSecretName: PrerequisitesStack.GithubSecretName,
             githubYoctoRecipeRepositoryName: PrerequisitesStack.GithubYoctoRecipeRepositoryName,

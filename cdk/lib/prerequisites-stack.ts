@@ -51,15 +51,15 @@ export class PrerequisitesStack extends Stack {
     // Used by: Image builder, to build a yocto image for this board.
     // Notes: this repository must exist and be usable by your token described above
     public static readonly GithubYoctoRecipeRepositoryName: string = "meta-aws-demos";
-    public static readonly GithubYoctoRecipeRepositoryOwner: string = "aws-samples";
-    public static readonly GithubYoctoRecipeRepositoryBranch: string = "master";
+    public static readonly GithubYoctoRecipeRepositoryOwner: string = "hancin";
+    public static readonly GithubYoctoRecipeRepositoryBranch: string = "personal-stack";
 
     // Repository: Repository where the Yocto builder CodeBuild project lives.
     // Used by: Base Image builder, to build a container for YP builds.
     // Notes: this repository must exist and be usable by your token described above
     public static readonly GithubBaseImageRepositoryName: string = "meta-aws-ci";
-    public static readonly GithubBaseImageRepositoryOwner: string = "aws";
-    public static readonly GithubBaseImageRepositoryBranch: string = "master";
+    public static readonly GithubBaseImageRepositoryOwner: string = "hancin";
+    public static readonly GithubBaseImageRepositoryBranch: string = "personal-stack";
     public static readonly GithubBaseImageRepositorySpecLocation: string = "buildspec/ci_image.yml";
 
 
